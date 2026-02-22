@@ -549,8 +549,7 @@ html, body { height:100%; overflow:hidden; background:#2a1008; font-family:'Sour
     </div>
     <div class="info-modal-body">
       <p>For each musician, I calculated the raw and percentage increase in Wikipedia page views (two-day average), Spotify streams (weekly average), Google searches (monthly average) and social mentions (Brandwatch limited sampling for weekly average) following their death compared with their typical level earlier in the same year.</p>
-      <p>Each percentage increase was log-transformed and then rescaled to a 0–100 range based on the highest observed value within that metric.</p>
-      <p>The four rescaled metrics were given equal weight and averaged to create a composite index capturing overall online reaction.</p>
+      <p>Each percentage increase was adjusted to reduce the impact of unusually large spikes, then scaled to a 0–100 range based on the highest value seen for that metric. The four metrics were then weighted equally and averaged to produce a single index capturing the overall level of online reaction.</p>
       <p>View the data <a href="https://docs.google.com/spreadsheets/d/1L24fv1bO6n_v97IsY-ihBNE_no6URr3Upi7MsAgguhs/edit?usp=sharing" target="_blank">here</a></p>
     </div>
   </div>
